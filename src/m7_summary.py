@@ -10,7 +10,7 @@ Authors: David Mutchler, Dave Fisher, Vibha Alangar, Amanda Stouder,
 ########################################################################
 
 ########################################################################
-# TODO: 2.
+# DONE: 2.
 #   Write code that accomplishes the following:
 #     - Constructs a SimpleTurtle with a  blue  Pen.
 #     - Makes the SimpleTurtle go straight UP 200 pixels.
