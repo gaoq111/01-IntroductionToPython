@@ -10,7 +10,7 @@ Authors: David Mutchler, Dave Fisher, Vibha Alangar, Amanda Stouder,
 ###############################################################################
 
 ###############################################################################
-# TODO: 2.
+# DONE: 2.
 #   You should have RUN the  m5e_loopy_turtles  module and READ its code.
 #   (Do so now if you have not already done so.)
 #
