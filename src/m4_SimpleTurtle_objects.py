@@ -10,11 +10,11 @@ Also:
   -- ASSIGNING a VALUE to a NAME (VARIABLE).
 
 Authors: David Mutchler, Dave Fisher, Vibha Alangar, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.
+         their colleagues and Qiyue Gao.
 """
 ###############################################################################
 #
-# TODO: 1.
+# DONE: 1.
 #   Yes, that means for YOU to DO things per the following instructions:
 #
 #   On Line 13 above, replace  PUT_YOUR_OWN_NAME_HERE  with your OWN name.
@@ -29,7 +29,7 @@ import rosegraphics as rg
 
 ###############################################################################
 #
-# TODO: 2.
+# DONE: 2.
 #   Allow this module to use the  rosegraphics.py  module by marking the
 #     src
 #   folder in this project as a "Sources Root", as follows:
@@ -48,7 +48,7 @@ import rosegraphics as rg
 
 ###############################################################################
 #
-# TODO: 3.
+# DONE: 3.
 #   Run this module.  A window will pop up and Turtles will move around.
 #   After the Turtles stop moving, *click anywhere in the window to close it*.
 #
@@ -89,9 +89,9 @@ boris = rg.SimpleTurtle()
 #   - Ask the SimpleTurtle object to do things by applying METHODs to it.
 # The numbers in the parentheses are called ARGUMENTS.
 # -----------------------------------------------------------------------------
-boris.forward(100)
+boris.forward(20)
 boris.left(90)
-boris.forward(200)
+boris.forward(20)
 
 # -----------------------------------------------------------------------------
 # The next few lines show how to:
@@ -99,19 +99,27 @@ boris.forward(200)
 #     set its  pen  and  speed  INSTANCE VARIABLES, and ask it to do things.
 # -----------------------------------------------------------------------------
 natasha = rg.SimpleTurtle('turtle')
-natasha.pen = rg.Pen('red', 30)  # Second argument is the Pen's thickness
-natasha.speed = 10  # Faster
+natasha.pen = rg.Pen('blue', 30)  # Second argument is the Pen's thickness
+natasha.speed = 4  # Faster
 
 natasha.backward(50)
 natasha.right(90)
 natasha.forward(50)
 
-natasha.speed = 1  # Now slower
-natasha.go_to(rg.Point(-100, 200))
+natasha.speed = 2  # Now slower
+natasha.go_to(rg.Point(-50, 200))
+
+natasha.pen = rg.Pen('red', 10)
+natasha.speed = 4
+natasha.draw_circle(50)
+natasha = rg.SimpleTurtle('arrow')
+natasha.pen = rg.Pen('yellow', 15)
+natasha.speed = 1
+natasha.forward(20)
 
 ###############################################################################
 #
-# TODO: 4.
+# DONE: 4.
 #   Add a few more lines of your own code to make one of the
 #   existing SimpleTurtles move some more and/or have different
 #   characteristics.
@@ -122,10 +130,13 @@ natasha.go_to(rg.Point(-100, 200))
 #   As always, test by running the module.
 #
 ###############################################################################
-
+jackie = rg.SimpleTurtle('arrow')
+jackie.pen = rg.Pen('yellow', 15)
+jackie.speed = 1
+jackie.forward(20)
 ###############################################################################
 #
-# TODO: 5.
+# DONE: 5.
 #   The above code  CONSTRUCTS  two SimpleTurtle objects
 #   and gives those objects NAMES:
 #       boris    natasha
@@ -152,7 +163,7 @@ natasha.go_to(rg.Point(-100, 200))
 
 ###############################################################################
 #
-# TODO: 6.
+# DONE: 6.
 #   Run one more time to be sure that all is still OK.
 #   Ensure that no blue bars on the scrollbar-thing to the right remain.
 #
