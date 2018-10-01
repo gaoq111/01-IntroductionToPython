@@ -11,7 +11,7 @@ Concepts include:
    -- Reference an object's  ** DATA **  by using an INSTANCE VARIABLE.
 
  * LOOPS:
-   -- Using a FOR expresssion like this:
+   -- USing a FOR expresssion like this:
          for k in range(41):
              blah
              blah
